@@ -1,0 +1,57 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Laporan",
+      "icon": "menu-icon tf-icons bx bxs-report",
+      "slug": "laporan",
+      "submenu": [
+        {
+          "url": "/laporan/nota",
+          "name": "Laporan nota",
+          "slug": "laporan-nota"
+        },
+        {
+          "url": "/laporan/quotation",
+          "name": "Laporan quotation",
+          "slug": "laporan-quotation"
+        },
+        {
+          "url": "/laporan/followup",
+          "name": "Laporan follow up",
+          "slug": "laporan-followup"
+        },
+        {
+          "url": "/laporan/mitra",
+          "name": "Laporan kerjasama mitra",
+          "slug": "laporan-mitra"
+        },
+        {
+          "url": "layouts/without-menu",
+          "name": "Laporan canvasing",
+          "slug": "layouts-without-menu"
+        }
+      ]
+    },
+    {
+      "menuHeader": "MASTER DATA"
+    },
+    {
+      "name": "Pengguna",
+      "icon": "menu-icon tf-icons bx bxs-user-account",
+      "url": "/pengguna",
+      "slug": "pengguna"
+    },
+    {
+      "url": "/jenis-mitra",
+      "name": "Jenis mitra",
+      "icon": "menu-icon tf-icons bx bxs-file-find",
+      "slug": "jenis-mitra"
+    }
+  ]
+}
